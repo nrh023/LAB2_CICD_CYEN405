@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Build step
-        run: eccho "Build OK - HTML validated"
+        run: echo "Build OK - HTML validated"
   deploy:
     runs-on: ubuntu-latest
     needs: build 
