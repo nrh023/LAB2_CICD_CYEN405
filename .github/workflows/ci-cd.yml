@@ -25,8 +25,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: Upload index.html as an artifact
+      - name: Upload fail.html as an artifact
         uses: actions/upload-artifact@v4
         with:
           name: webpage
-          path: fail.html
+          path: index.html
